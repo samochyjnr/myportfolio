@@ -1,0 +1,37 @@
+
+#toppart{
+  background: rgb(83,28,195);
+  background: linear-gradient(143deg, rgba(83,28,195,1) 0%, rgba(201,92,14,1) 98%);
+}
+#navbarNav{
+  background-color: transparent;
+}
+
+
+
+/* leave this h2 */
+h2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 20px;
+  color: #E9EEF3;
+}
+
+h3{
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 15px;
+  color:#E9EEF3;
+}
+
+
+p{
+font-weight:bold;
+}
+
+
+
+h6{
+  text-align: center;
