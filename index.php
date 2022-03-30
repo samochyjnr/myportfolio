@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
 
-     <link href="css/style.css" rel="stylesheet"> 
+     <link href="css/style.css" rel="stylesheet">
 <link href="javascript.js" rel="stylesheet">
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -28,7 +28,7 @@
           <?php echo "AKPAINYANG UDEME"; ?>
         </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <?php echo "<span class='navbar-toggler-icon'></span>"; ?>
+        <span class='navbar-toggler-icon'></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
@@ -54,36 +54,36 @@
     <div class="container">
     <div class="row">
 
-  <?php
-  echo "<div class='col'></div>";
-  ?>
+
+   <div class="col"></div>
+
     <div class="col">
 
-    <?php
-    echo "<img src='img/uddy.png' alt='profilepic' class='profilepic'>";
-    ?>
 
-    <?php
-    echo "<h2>AKPAINYANG UDEME MFONOBONG</h2>";
-    ?>
+    <img src="img/uddy.png" alt="profilepic" class="profilepic">
 
-    <?php
-    echo " <h2 class='h2i'>{uddy}</h2> ";
-    ?>
 
-    <?php
-    echo " <h3> WEB DEVELOPER</h3> ";
-    ?>
 
-    <?php
-    echo " <h3 class='h3i'> FULL STACK</h3> ";
-    ?>
+    <h2>AKPAINYANG UDEME MFONOBONG</h2>
+
+
+
+     <h2 class="h2i">{uddy}</h2>
+
+
+
+     <h3> WEB DEVELOPER</h3>
+
+
+
+     <h3 class="h3i"> FULL STACK</h3>
+
 
     </div>
 
-    <?php
-echo "<div class='col'></div>";
-     ?>
+
+ <div class="col"></div>
+
 
 
     </div>
@@ -102,43 +102,42 @@ echo "<h3 class='h2ii' id='aboutme'> ABOUT ME</h3>";
   <div class="container">
     <div class="row">
       <div class="col">
-            <?php
-            echo "<img src='img/uddy2.jpg' alt='profilepic' class='pic1'>";
-             ?>
+
+             <img src="img/uddy2.jpg" alt="profilepic" class="pic1">
+
       </div>
       <div class="col">
 
-        <?php
-echo "<br>";
-echo "<br>";
-echo "<br>";
-         ?>
+
+ <br>
+ <br>
+ <br>
 
 
 
-        <?php
-echo " <img class='giphy1' src='https://media.giphy.com/media/H19TbCm0XQTPW/giphy.gif' alt='...'>  ";
-echo "<p> Hi there, my name is Akpainyang Udeme Mfonobong, I'm a full stack web developer and this is a website i created as a portfolio page. kindly scroll through to view the various options you might like and contact me. Thank you. </p>";
 
-         ?>
 
-         <?php
- echo " <img class='giphy1' src='https://media.giphy.com/media/iIGT8Y1rOYhBpdHh1C/giphy.gif' alt='...'> ";
- echo "<p> Based on my experience and ongoing development in this field as a web developer, I have acquired the necessary skills and knowledge necessary to make your project a success. </p>";
+<img class="giphy1" src="https://media.giphy.com/media/H19TbCm0XQTPW/giphy.gif" alt="...">
+<p> Hi there, my name is Akpainyang Udeme Mfonobong, I'm a full stack web developer and this is a website i created as a portfolio page. kindly scroll through to view the various options you might like and contact me. Thank you. </p>
 
-          ?>
 
-          <?php
-  echo " <img class='giphy1' src='https://media.giphy.com/media/Vf3ZKdillTMOOaOho0/giphy.gif' alt='...'> ";
-  echo " <p>The experience and skills i have gained so far have provided me with a very strong foundation in my career and thus enables me to develop fully as a full stack web developer.</p>";
 
-           ?>
 
-           <?php
-   echo " <img class='giphy1' src='https://media.giphy.com/media/Itbxi5E73eH2mZK97v/giphy.gif' alt='...'>  ";
-   echo " <p> My goal is to make your dream/ideal website a reality as much as i can. Contact me so we can start today.<p>";
+   <img class="giphy1" src="https://media.giphy.com/media/iIGT8Y1rOYhBpdHh1C/giphy.gif" alt="...">
+  <p> Based on my experience and ongoing development in this field as a web developer, I have acquired the necessary skills and knowledge necessary to make your project a success. </p>
 
-            ?>
+
+
+
+  <img class="giphy1" src='https://media.giphy.com/media/Vf3ZKdillTMOOaOho0/giphy.gif' alt="...">
+  <p>The experience and skills i have gained so far have provided me with a very strong foundation in my career and thus enables me to develop fully as a full stack web developer.</p>
+
+
+
+    <img class="giphy1" src="https://media.giphy.com/media/Itbxi5E73eH2mZK97v/giphy.gif" alt="...">
+    <p> My goal is to make your dream/ideal website a reality as much as i can. Contact me so we can start today.<p>
+
+
 
       </div>
     </div>
@@ -163,39 +162,38 @@ echo "<p> Hi there, my name is Akpainyang Udeme Mfonobong, I'm a full stack web 
 <div class="row">
   <div class="col-sm">
     <div class="card" style="width: 18rem;">
-      <?php
-      echo "<img src='https://media.giphy.com/media/3IrouyJoqgzv5KTPfM/giphy.gif' class='card-img-top' alt='...'>";
-       ?>
+
+      <img src="https://media.giphy.com/media/3IrouyJoqgzv5KTPfM/giphy.gif" class="card-img-top" alt="...">
+
 
     <div class="card-body">
 
-      <?php
-      echo "<h5 class='card-title'>FRONT END</h5>";
-       echo "<p class='card-text'>  Hire me to work on the front end part of the website. what you'd like the viewers to see when they log onto your website.</p>";
-       echo "  <a href='#' class='btn btn-primary'>HIRE ME</a>";
-       ?>
+
+      <h5 class="card-title">FRONT END</h5>
+      <p class="card-text">  Hire me to work on the front end part of the website. what you'd like the viewers to see when they log onto your website.</p>
+        <a href="#" class="btn btn-primary">HIRE ME</a>
 
 
 
     </div>
   </div>
 
-  <?php echo "<br>"; ?>
+   <br>
 
   </div>
 
   <div class="col-sm">
     <div class="card" style="width: 18rem;">
-    <?php
-    echo " <img src='https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif' class='card-img-top' alt='...'> ";
-     ?>
+
+     <img src='https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif' class='card-img-top' alt='...'> ";
+
     <div class="card-body">
 
-      <?php
-      echo "<h5 class='card-title'>BACK END</h5>";
-      echo "<p class='card-text'>Hire me to work on the back end of your website to be fully functional and tailored to your desire.<p>";
-      echo " <a href='#' class='btn btn-primary'>HIRE ME</a>";
-      ?>
+
+       <h5 class="card-title">BACK END</h5>
+       <p class="card-text">Hire me to work on the back end of your website to be fully functional and tailored to your desire.<p>
+       <a href="#" class="btn btn-primary">HIRE ME</a>
+
 
 
 
@@ -208,22 +206,22 @@ echo "<p> Hi there, my name is Akpainyang Udeme Mfonobong, I'm a full stack web 
   </div>
   <div class="col-sm">
     <div class="card" style="width: 18rem;">
-  <?php
-  echo "<img src='https://media.giphy.com/media/cIn5fTcjnKhStIeAef/giphy.gif' class='card-img-top' alt='..'>";
-   ?>
+
+<img src="https://media.giphy.com/media/cIn5fTcjnKhStIeAef/giphy.gif" class="card-img-top" alt="...">
+
   <div class="card-body">
-    <?php
-    echo "<h5 class='card-title'>FULL STACK</h5>";
-    echo "<p class='card-text'>Hire me to fully develop and or maintain your desired website.</p>";
-    echo "<a href='#' class='btn btn-primary'>HIRE ME</a>";
-     ?>
+
+     <h5 class='card-title'>FULL STACK</h5>
+     <p class='card-text'>Hire me to fully develop and or maintain your desired website.</p>
+     <a href='#' class='btn btn-primary'>HIRE ME</a>
+
 
   </div>
 </div>
 
-<?php
-echo "<br>";
- ?>
+
+<br>
+
 
   </div>
 </div>
@@ -270,33 +268,33 @@ echo "<br>";
 <div class="row">
   <div class="col-sm">
     <div class="card" style="width: 18rem;">
-    <?php
-    echo "<img src='https://media.giphy.com/media/jU9PVpqUvR0aNc3nvX/giphy.gif' class='card-img-top' alt='...'>";
-     ?>
+
+  <img src='https://media.giphy.com/media/jU9PVpqUvR0aNc3nvX/giphy.gif' class='card-img-top' alt='...'>
+
     <div class="card-body">
-      <?php
-      echo "<h5 class='card-title'>WHATSAPP CONTACT</h5>";
-      echo "<p class='card-text'> </p>";
-      echo "<a href='#' class='btn btn-primary'>WHATSAPP</a>";
-       ?>
+
+    <h5 class='card-title'>WHATSAPP CONTACT</h5>
+      <p class='card-text'> </p>
+       <a href='#' class='btn btn-primary'>WHATSAPP</a>
+
 
     </div>
   </div>
 
-  <?php
-  echo "<br>";
-   ?>
+
+  <br>
+
 
   <div class="card" style="width: 18rem;">
-  <?php
-echo "<img src='https://media.giphy.com/media/xpUtJjsEFZk7EcwPLs/giphy.gif' class='card-img-top'>";
-   ?>
+
+ <img src='https://media.giphy.com/media/xpUtJjsEFZk7EcwPLs/giphy.gif' class='card-img-top'>";
+
   <div class="card-body">
-    <?php
-    echo "<h5 class='card-title'>FACEBOOK</h5>";
-    echo "<p class='card-text'></p>";
-    echo "<a href='https://web.facebook.com/udeme.akpainyang/' class='btn btn-primary'>MY PROFILE</a>";
-     ?>
+
+    <h5 class='card-title'>FACEBOOK</h5>
+    <p class='card-text'></p>
+     <a href='https://web.facebook.com/udeme.akpainyang/' class='btn btn-primary'>MY PROFILE</a>
+
 
 
 
@@ -306,35 +304,34 @@ echo "<img src='https://media.giphy.com/media/xpUtJjsEFZk7EcwPLs/giphy.gif' clas
 
   <div class="col-sm">
     <div class="card" style="width: 18rem;">
-      <?php
-    echo "<img src='https://media.giphy.com/media/HSUjurTAHO8ulVKgAP/giphy.gif' class='card-img-top' alt='...'>";
-       ?>
+
+  <img src='https://media.giphy.com/media/HSUjurTAHO8ulVKgAP/giphy.gif' class='card-img-top' alt='...'>
+
     <div class="card-body">
-      <?php
-      echo "<h5 class='card-title'>SMS MESSAGE</h5>";
-      echo "<p class='card-text'><p>";
-      echo "<a href='#' class='btn btn-primary'>TEXT ME</a>";
-       ?>
+
+       <h5 class='card-title'>SMS MESSAGE</h5>
+       <p class='card-text'><p>
+       <a href='#' class='btn btn-primary'>TEXT ME</a>
+
 
 
 
     </div>
   </div>
-  <?php
-echo "<br>";
-   ?>
+
+ <br>
+
 
   <div class="card" style="width: 18rem;">
-    <?php
-  echo "<img src='https://media.giphy.com/media/KnP4MW4dkeNJWCThSg/giphy.gif' class='card-img-top' alt='...'>";
-     ?>
+
+   <img src='https://media.giphy.com/media/KnP4MW4dkeNJWCThSg/giphy.gif' class='card-img-top' alt='...'>
 
   <div class="card-body">
-    <?php
-    echo "<h5 class='card-title'>INSTAGRAM</h5>";
-    echo "<p class='card-text'></p>";
-    echo "<a href='https://www.instagram.com/uddy_7/' class='btn btn-primary'>MY PROFILE</a>";
-     ?>
+
+     <h5 class='card-title'>INSTAGRAM</h5>
+     <p class='card-text'></p>
+     <a href='https://www.instagram.com/uddy_7/' class='btn btn-primary'>MY PROFILE</a>
+
 
   </div>
 </div>
@@ -342,34 +339,33 @@ echo "<br>";
   </div>
   <div class="col-sm">
     <div class="card" style="width: 18rem;">
-      <?php
-    echo "<img src='https://media.giphy.com/media/gbGf8mmc7L80bpwQcd/giphy.gif' class='card-img-top' alt='...'>";
-       ?>
+
+    <img src='https://media.giphy.com/media/gbGf8mmc7L80bpwQcd/giphy.gif' class='card-img-top' alt='...'>
+
   <div class="card-body">
-    <?php
-    echo "<h5 class='card-title'>PHONE</h5>";
-    echo "<p class='card-text'></p>";
-    echo "<a href='08146358461' class='btn btn-primary'>CALL ME</a>";
-     ?>
+
+     <h5 class='card-title'>PHONE</h5>
+     <p class='card-text'></p>
+     <a href='08146358461' class='btn btn-primary'>CALL ME</a>
+
 
 
   </div>
 </div>
-<?php
-echo "<br>";
- ?>
+
+<br>
+
 
 <div class="card" style="width: 18rem;">
-  <?php
-echo "<img src='https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif' class='card-img-top' alt='...'>";
-   ?>
+
+ <img src='https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif' class='card-img-top' alt='...'>
+
   <div class="card-body">
 
-    <?php
-    echo "<h5 class='card-title'>GIT HUB</h5>";
-    echo "<p class='card-text'></p>";
-    echo "<a href='#' class='btn btn-primary'>MY PROFILE</a>";
-     ?>
+
+    <h5 class='card-title'>GIT HUB</h5>
+    <p class='card-text'></p>";
+    <a href='#' class='btn btn-primary'>MY PROFILE</a>
 
   </div>
 </div>
